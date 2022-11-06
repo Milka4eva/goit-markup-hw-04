@@ -115,28 +115,23 @@ header {
     padding-bottom: 32px;
 }
 
-.email::before{
-    content: "";
-    height: 16px;
-    width: 16px;
-    background-image: url(../images/envelope\ \(hover\).png);
-    background-repeat: no-repeat;
-}
-
-.phone::before{
-    content: "";
-    height: 16px;
-    width: 16px;
-    background-image: url(../images/smartphone.png);
-    background-repeat: no-repeat;
-}
-
 .mainmenu:hover, .mainmenu:focus {
     color: var(--main-blue);
 }
 
 .maincontacts:hover, .maincontacts:focus {
     color: var(--main-blue);
+}
+
+button > .smartphones, button > .emails {
+    color: var(--main-grey);
+    fill: var(--main-white);
+}
+
+button > .smartphones:hover, button > .smartphones:focus,
+button > .emails:hover, button > .emails:focus {
+    color: var (--main-blue);
+    fill: var(--main-white);
 }
 
 .current {
@@ -241,7 +236,7 @@ h2 {
     margin-left: 30px;
 }
 
-.benefits > li::before{
+.antenna, .clock, .diagram, .astronaut {
     content: "";
     display: block;
     height: 120px;
@@ -249,22 +244,6 @@ h2 {
     background-position: center;
     background-size: contain;
     background-color: #F5F4FA;
-}
-
-li.antenna::before {
-    background-image: url(../images/antenna\ 1.png);
-}
-
-li.clock::before {
-    background-image: url(../images/clock\ 1.png);
-}
-
-li.diagram::before {
-    background-image: url(../images/diagram\ 1.png);
-}
-
-li.astronaut::before {
-    background-image: url(../images/astronaut\ 1.png);
 }
 
 .titlebenefits {
@@ -367,6 +346,36 @@ h2 .ourteamname {
     text-align: center;
 }
 
+/*Clients*/
+.clientlist{
+    margin-top: 94px;
+    margin-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clientlist ul {
+    display:flex;
+}
+
+.clientlist li + li {
+    margin-left: 30px;
+}
+
+.listclients {
+    list-style: none;
+}
+
+.listclients > li {
+    width: 170px;
+    height: 92px;
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #afb1b8;
+}
+
 /*Footer Styles*/
 
 footer {
@@ -444,6 +453,7 @@ address {
 
 .footercolumn2 {
     display: block;
+    margin-left: 70px;
 }
 
 .footercolumn2 > p {
@@ -455,7 +465,7 @@ address {
     vertical-align: top;
     text-align: left;
     letter-spacing: 3%;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .instagramfooter {
@@ -463,7 +473,6 @@ address {
     height: 44px;
     width: 44px;
     border-radius: 50%;
-    background-image: url(../images/instagram\ 2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -475,11 +484,14 @@ address {
     height: 44px;
     width: 44px;
     border-radius: 50%;
-    background-image: url(../images/instagram\ 2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.instagramfooter:hover, .instagramfooter:focus {
+    background-color: var(--main-blue);
 }
 
 .twitterfooter {
@@ -487,11 +499,14 @@ address {
     height: 44px;
     width: 44px;
     border-radius: 50%;
-    background-image: url(../images/twitter\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.twitterfooter:hover, .twitterfooter:focus {
+    background-color: var(--main-blue);
 }
 
 .facebookfooter {
@@ -499,11 +514,14 @@ address {
     height: 44px;
     width: 44px;
     border-radius: 50%;
-    background-image: url(../images/facebook\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.facebookfooter:hover, .facebookfooter:focus {
+    background-color: var(--main-blue);
 }
 
 .linkedinfooter {
@@ -511,11 +529,14 @@ address {
     height: 44px;
     width: 44px;
     border-radius: 50%;
-    background-image: url(../images/linkedin\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.linkedinfooter:hover, .linkedinfooter:focus {
+    background-color: var(--main-blue);
 }
 
 /*Portfolio Styles*/

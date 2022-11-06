@@ -11,23 +11,45 @@
 <title>Портфоліо</title>
 </head>
 <body>
-    <!--Верхня лінія-->
-    <header>
-        <div class="container headerdiv">
-        <nav class="mainnav">
-            <a href="./index.html" class="logomain"><span class="logoweb">Web</span>Studio</a>
-            <ul class="menunav list">
-                <li><a class="mainmenu list" href="index.html">Студія</a></li>
-                <li><a class="mainmenu list current" href="portfolio.html">Портфоліо</a></li>
-                <li><a class="mainmenu list" href="">Контакти</a></li>
-            </ul>
-        </nav>
-            <ul class="contactsnav list">
-                <li><a class="maincontacts email list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="maincontacts phone list" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </div>
-    </header>
+        <!--Верхня лінія-->
+        <header>
+            <div class="container headerdiv">
+            <nav class="mainnav">
+                <a href="./index.html" class="logomain"><span class="logoweb">Web</span>Studio</a>
+                <ul class="menunav list">
+                    <li><a class="mainmenu list" href="index.html">Студія</a></li>
+                    <li><a class="mainmenu list current" href="portfolio.html">Портфоліо</a></li>
+                    <li><a class="mainmenu list" href="">Контакти</a></li>
+                </ul>
+            </nav>
+                <ul class="contactsnav list">
+                    <li>
+                        <div>
+                        <a class="maincontacts email list" href="mailto:info@devstudio.com">
+                            <button class="emails">
+                            <svg width="16px" height="12px">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>
+                            </button>
+                            info@devstudio.com
+                        </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                        <a class="maincontacts phone list" href="tel:+380961111111">
+                            <button class="smartphones">
+                            <svg width="16px" height="12px">
+                                <use href="./images/icons.svg#icon-smartphone"></use>
+                            </svg>
+                            </button>
+                            +38 096 111 11 11
+                        </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
     <!--Шапка-->
     <main>
         <!--Перелік проектів-->
@@ -121,6 +143,7 @@
     <footer>
         <!--Підвал-->
         <div class="container footerdiv">
+            <div class="footercolumn1">
             <a href="/" class="logofooter"><span class="logoweb">Web</span><span class="logostudio">Studio</span></a>
             <address>
             <ul class="list">
@@ -129,7 +152,33 @@
                <li class="otheraddress"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
             </address>
+            </div>
+            <div class="footercolumn2">
+            <p>Приєднуйтесь</p>
+            <ul>
+                <li class="instagramfooter">
+                    <a href="" title="Instagram">
+                        <svg><use href="/images/icons.svg#icon-instagram"></use></svg>
+                    </a>
+                </li>
+                <li class="twitterfooter">
+                    <a href="" title="Twitter">
+                        <svg><use href="/images/icons.svg#icon-twitter"></use></svg>
+                    </a>    
+                </li>
+                <li class="facebookfooter">
+                    <a href="" title="Facebook">
+                        <svg><use href="/images/icons.svg#icon-facebook"></use></svg>
+                    </a>
+                </li>
+                <li class="linkedinfooter">
+                    <a href="" title="Linkedin">
+                        <svg><use href="/images/icons.svg#icon-linkedin"></use></svg>
+                    </a>
+                </li>
+            </ul>
+            </div>
         </div>
-    </footer>
+        </footer>
 </body>
 </html>
