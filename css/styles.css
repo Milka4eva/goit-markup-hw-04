@@ -123,13 +123,15 @@ header {
     color: var(--main-blue);
 }
 
-button > .smartphones, button > .emails {
+.smartphones, .emails {
     color: var(--main-grey);
     fill: var(--main-white);
+    padding: 0;
+    border: none;
 }
 
-button > .smartphones:hover, button > .smartphones:focus,
-button > .emails:hover, button > .emails:focus {
+.smartphones:hover, .smartphones:focus,
+.emails:hover, .emails:focus {
     color: var (--main-blue);
     fill: var(--main-white);
 }
