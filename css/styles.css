@@ -125,7 +125,6 @@ header {
 
 .smartphones, .emails {
     color: var(--main-grey);
-    fill: var(--main-white);
     padding: 0;
     border: none;
 }
@@ -133,7 +132,6 @@ header {
 .smartphones:hover, .smartphones:focus,
 .emails:hover, .emails:focus {
     color: var (--main-blue);
-    fill: var(--main-white);
 }
 
 .current {
@@ -149,7 +147,7 @@ header {
 
 .overlay {
     height: 600px;
-    max-width: 1600px;
+    width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     margin-left: auto;
@@ -241,6 +239,7 @@ h2 {
 .antenna, .clock, .diagram, .astronaut {
     content: "";
     display: block;
+    width: 270px;
     height: 120px;
     background-repeat: no-repeat;
     background-position: center;
