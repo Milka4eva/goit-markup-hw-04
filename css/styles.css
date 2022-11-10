@@ -238,11 +238,12 @@ h2 {
 
 .antenna, .clock, .diagram, .astronaut {
     content: "";
-    display: block;
+    display: flex;
     width: 270px;
     height: 120px;
+    justify-content: center;
+    align-items: center;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: contain;
     background-color: #F5F4FA;
 }
@@ -375,6 +376,14 @@ h2 .ourteamname {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #afb1b8;
+}
+
+.linkclients {
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Footer Styles*/
