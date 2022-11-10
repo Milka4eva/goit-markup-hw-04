@@ -489,17 +489,6 @@ address {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.instagramfooter {
-    display: inline-block;
-    height: 44px;
-    width: 44px;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
 .instagramfooter:hover, .instagramfooter:focus {
     background-color: var(--main-blue);
 }
@@ -547,6 +536,38 @@ address {
 
 .linkedinfooter:hover, .linkedinfooter:focus {
     background-color: var(--main-blue);
+}
+
+.linkinstagram {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkfacebook {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.linktwitter {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.linklinkedin {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Portfolio Styles*/
