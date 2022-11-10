@@ -324,7 +324,7 @@ h2 .ourteamname {
 
 .teamdiv {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
 }
 
 .teammember {
@@ -346,6 +346,28 @@ h2 .ourteamname {
     color: var(--main-grey);
 
     text-align: center;
+}
+
+.teamicons {
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.teamicons > ul {
+    list-style: none;
+}
+
+.teamiconlink {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamicons li + li {
+    margin-left: 10px;
 }
 
 /*Clients*/
@@ -609,6 +631,7 @@ address {
 .projectsbutton:hover, .projectsbutton:focus {
     background-color: var(--main-blue);
     color: var(--main-white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .portfoliotitle, .description {
@@ -670,6 +693,12 @@ img .projectimg {
     margin: 0;
     padding: 0;
 }
+
+.projectlist:hover, .projectlist:focus {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
 
 
 
