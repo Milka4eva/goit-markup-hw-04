@@ -133,7 +133,7 @@ header {
 
 .smartphones:hover, .smartphones:focus,
 .emails:hover, .emails:focus {
-    color: var(--main-blue);
+    fill: var(--main-blue);
 }
 
 .current {
@@ -313,7 +313,7 @@ h2 .ourteamname {
     margin-left: 30px;
 }
 
-.teamsection li {
+.teamsectionli {
     background-color: #ffffff;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14);
@@ -370,6 +370,7 @@ h2 .ourteamname {
 }
 
 .teamiconlink:hover, .teamiconlink:focus {
+    fill: var(--main-white);
     background-color: var(--main-blue);
 }
 
@@ -411,7 +412,7 @@ h2 .ourteamname {
 }
 
 .linkclients:hover, .linkclients:focus {
-    color: var(--main-blue);
+    fill: var(--main-blue);
     border: 1px solid var(--main-blue);
 }
 
