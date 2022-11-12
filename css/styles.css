@@ -124,15 +124,15 @@ header {
     color: var(--main-blue);
 }
 
-.smartphones, .emails {
-    color: var(--main-grey);
+.iconsmartphone, .iconemail {
+    fill: var(--main-grey);
     padding: 0;
     border: none;
     margin-right: 10px;
 }
 
-.smartphones:hover, .smartphones:focus,
-.emails:hover, .emails:focus {
+.iconsmartphone:hover, .iconsmartphone:focus,
+.iconemail:hover, .iconemail:focus {
     fill: var(--main-blue);
 }
 
@@ -422,6 +422,14 @@ h2 .ourteamname {
 .linkclients:hover, .linkclients:focus {
     fill: var(--main-blue);
     border: 1px solid var(--main-blue);
+}
+
+.iconclients {
+    fill:#757575; 
+}
+
+.iconclients:hover, .iconclients:focus {
+    fill:var(--main-blue);
 }
 
 /*Footer Styles*/
