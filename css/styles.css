@@ -326,8 +326,8 @@ h2 .ourteamname {
 }
 
 .teamdiv {
-    padding-top: 30px;
-    padding-bottom: 16px;
+    margin-top: 30px;
+    margin-bottom: 16px;
 }
 
 .teammember {
@@ -376,6 +376,14 @@ h2 .ourteamname {
 
 .teamicons li + li {
     margin-left: 10px;
+}
+
+.socialicon1 {
+    fill:#afb1b8;
+}
+
+.socialicon1:hover, .socialicon1:focus {
+    fill:#ffffff;
 }
 
 /*Clients*/
@@ -526,6 +534,7 @@ address {
     width: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 10px;
 }
 
 .twitterfooter:hover, .twitterfooter:focus {
@@ -538,6 +547,7 @@ address {
     width: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 10px;
 }
 
 .facebookfooter:hover, .facebookfooter:focus {
@@ -550,6 +560,7 @@ address {
     width: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 10px;
 }
 
 .linkedinfooter:hover, .linkedinfooter:focus {
