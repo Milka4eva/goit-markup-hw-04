@@ -423,7 +423,8 @@ h2 .ourteamname {
     border: 1px solid #afb1b8;
 }
 
-.linkclients:hover, .linkclients:focus {
+.linkclients:hover, .linkclients:focus,
+.iconclients:hover, .iconclients:focus {
     fill: var(--main-blue);
     border: 1px solid var(--main-blue);
 }
