@@ -410,6 +410,10 @@ h2 .ourteamname {
     display: block;
 }
 
+.iconclients {
+    fill:#757575; 
+}
+
 .linkclients {
     display:flex;
     width: 100%;
@@ -422,14 +426,6 @@ h2 .ourteamname {
 .linkclients:hover, .linkclients:focus {
     fill: var(--main-blue);
     border: 1px solid var(--main-blue);
-}
-
-.iconclients {
-    fill:#757575; 
-}
-
-.iconclients:hover, .iconclients:focus {
-    fill:var(--main-blue);
 }
 
 /*Footer Styles*/
