@@ -132,6 +132,11 @@ header {
     margin-right: 10px;
 }
 
+.iconemail:hover, .iconsmartphone:hover,
+.iconemail:focus, .iconsmartphone:focus {
+    fill: var(--main-blue);
+}
+
 .current {
     color: var(--main-blue);
 }
