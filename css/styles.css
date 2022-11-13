@@ -120,7 +120,7 @@ header {
     color: var(--main-blue);
 }
 
-.maincontacts:hover, maincontacts:focus {
+.maincontacts:hover, .maincontacts:focus {
     color: var(--main-blue);
 }
 
@@ -129,6 +129,7 @@ header {
 .maincontacts:hover .iconsmartphone,
 .maincontacts:focus .iconsmartphone {
     fill: var(--main-blue);
+    color: var(--main-blue);
 }
 
 .iconsmartphone, .iconemail {
@@ -407,26 +408,23 @@ h2 .ourteamname {
 }
 
 .listclients > li {
-    width: 170px;
-    height: 92px;
     display: block;
 }
 
 .linkclients {
     display:flex;
+    width: 170px;
+    height: 92px;
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
 }
 
 .iconclients {
-    fill:#757575;
-    border: 1px solid #afb1b8;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px; 
+    fill:#afb1b8;
 }
 
 .iconclients:hover, .iconclients:focus {
