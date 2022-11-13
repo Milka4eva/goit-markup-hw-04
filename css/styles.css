@@ -120,8 +120,14 @@ header {
     color: var(--main-blue);
 }
 
-.maincontacts:hover, .maincontacts:focus {
+.maincontacts:hover, maincontacts:focus {
     color: var(--main-blue);
+}
+
+.maincontacts:hover .iconemail,
+.maincontacts:focus .iconemail,
+.maincontacts:hover .iconsmartphone,
+.maincontacts:focus .iconsmartphone {
     fill: var(--main-blue);
 }
 
@@ -130,11 +136,6 @@ header {
     padding: 0;
     border: none;
     margin-right: 10px;
-}
-
-.iconemail:hover, .iconsmartphone:hover,
-.iconemail:focus, .iconsmartphone:focus {
-    fill: var(--main-blue);
 }
 
 .current {
