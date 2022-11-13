@@ -424,7 +424,7 @@ h2 .ourteamname {
 }
 
 .linkclients:hover, .linkclients:focus {
-    border: var(--main-blue)
+    border: 1px solid var(--main-blue);
 }
 
 .linkclients:hover .iconclients,
