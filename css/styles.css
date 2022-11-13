@@ -385,7 +385,8 @@ h2 .ourteamname {
     fill:#afb1b8;
 }
 
-.socialicon1:hover, .socialicon1:focus {
+.teamiconlink:hover .socialicon1, 
+.teamiconlink:focus .socialicon1: {
     fill:#ffffff;
 }
 
@@ -397,6 +398,7 @@ h2 .ourteamname {
 
 .clientlist ul {
     display:flex;
+    gap: 30px;
 }
 
 .clientlist li + li {
@@ -415,8 +417,6 @@ h2 .ourteamname {
     display:flex;
     width: 170px;
     height: 92px;
-    width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
     border: 1px solid #afb1b8;
@@ -427,10 +427,11 @@ h2 .ourteamname {
     fill:#afb1b8;
 }
 
-.iconclients:hover, .iconclients:focus {
-    border: 1px solid var(--main-blue);
-    fill: var(--main-blue);
+.linkclients:hover .iconclients,
+.linkclients:focus .iconclients {
+    fill:var(--main-blue);
 }
+
 
 /*Footer Styles*/
 
